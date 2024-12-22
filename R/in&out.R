@@ -9,7 +9,7 @@ process_file <- function(file_path) {
   if (!file.exists(file_path)) {
     stop("Error: Input file not found at ", file_path)
   }
-  
+
   # If file exists, print the output
-  print("Wang is a goooood guy")
+  print("Xinyu Wang is a goooood guy")
 }
